@@ -1,20 +1,3 @@
-button {
-    width:125px;
-    height: 115px;
-    border: none;
-    color: black;
-    background-color:hotpink;
-    border-radius: 50%;
-    padding:0;
-    display: inline-block;
-    text-align: center;
-    font-size: 19px;
-    margin: 35px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    cursor: pointer;
-  }  
-
 body {
     text-align: center;
     line-height: 1.5em;
@@ -36,12 +19,28 @@ hr {
     margin-bottom: 10%;   
 }
 
+.menukuva-container {
+    position: relative;
+    display: inline-block;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: hotpink;
+    font-size: 50px;
+    font-weight: bold; 
+    text-align: center;
+}
+
 footer {
     align-items: center;
     text-align: center;
     padding: 0px;
     font-size: 15px;
     margin-bottom: 0%;
+    margin-top: 7%;
 }
 
 kuva-container {
@@ -58,19 +57,23 @@ kuva-container {
 
 .hr-kuvan-paalla {
     position: absolute;
-    bottom: -65%;
+    bottom: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 65%;
 }
 
+.footer-container{
+    position:relative;
+    text-align:center;
+}
+
 .teksti-kuvan-paalla {
     position: absolute;
-    top: 165%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
     color: black;
     text-align: center;
 }
@@ -90,6 +93,69 @@ kuva-container {
 .flex-item p {
    text-align:left;
 }
+
 .suolaiset {
     margin-left:38.2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*mobiili*/
+
+@media only screen and (max-width: 430px)
+{
+header {
+    position:relative;
+    image-size: 50px
+}
+
+.headerlogo{
+    width:100%;
+    max-width: 200px;
+}
+
+button{
+    width: 70px;
+    height: 60px;
+    border: none;
+    color: black;
+    background-color:hotpink;
+    border-radius: 50%;
+    padding:0;
+    display: blocks;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+}
+
+@media only screen and (min-width: 1024px)
+{
+button {
+    width: 125px;
+    height: 115px;
+    border: none;
+    color: black;
+    background-color:hotpink;
+    border-radius: 50%;
+    padding:0;
+    display: blocks;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 19px;
+    margin: 35px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }  
+
 }
