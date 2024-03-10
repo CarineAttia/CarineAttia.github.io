@@ -83,19 +83,17 @@ kuva-container{
     margin-bottom: 0%;
 }
 
-.hr-kuvan-paalla{
-    height: 3px;
+.hr-kuvan-paalla {
     width: 65%;
+    height:3px;
     color:black;
     background-color:black;
-    margin-top: 5px; 
-    margin-bottom: 6%;  
     position: absolute;
-    
+    top: 12%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     z-index: 1;
-    width: 65%;
+
 }
 
 .footer-container{
@@ -206,19 +204,16 @@ footer {
     margin-bottom: 0%;
 }
 
-.hr-kuvan-paalla{
-    height: 2px;
+.hr-kuvan-paalla {
     width: 65%;
+    height:3px;
     color:black;
     background-color:black;
-    margin-top: 5px; 
-    margin-bottom: 6%;  
     position: absolute;
-    bottom: 35%;
+    top: 12%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     z-index: 1;
-    width: 65%;
 }
 
 }
@@ -255,23 +250,26 @@ button{
     cursor: pointer;    
 }  
 
-.header-hr {
-    height: 2px;
+.hr-kuvan-paalla {
     width: 65%;
+    height:3px;
     color:black;
     background-color:black;
-    margin-top: 5px; 
-    margin-bottom: 7%; 
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
 }
 
-.body-kuvat{
+.body-kuvat {
 
     width:290px;
     margin-left:4px;
     margin-right:4px;
 }
 
-footer{
+footer {
     align-items: center;
     text-align: center;
     padding: 0px;
@@ -280,25 +278,18 @@ footer{
     margin-top: 7%;
 }
 
-.kuva{
+.kuva {
     width: 210px;
     height: auto;
     margin:0px;
     margin-bottom: 0%;
 }
 
-.hr-kuvan-paalla{
-    height: 2px;
-    width: 65%;
-    color:black;
-    background-color:black;
-    margin-top: 5px; 
-    margin-bottom: 0%;  
+.hr-kuvan-paalla {
     position: absolute;
-    bottom: 55%;
+    top: 12%
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; 
+    transform: translate(-50%, -50%);    
 }
 
 }
@@ -337,11 +328,36 @@ button {
     cursor: pointer;
 }  
 
-.body-kuvat{
+.body-kuvat {
 
     width:400px;
     margin-left:20px;
     margin-right:20px;
+}
+
+footer {
+    font-size:13px;
+
+}
+
+.kuva {
+    width: 300px;
+    height: auto;
+    margin:0px;
+    margin-bottom: 0%;
+}
+
+.hr-kuvan-paalla {
+    width: 65%;
+    height:3px;
+    color:black;
+    background-color:black;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+
 }
 
 }
