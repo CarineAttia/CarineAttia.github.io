@@ -1,22 +1,24 @@
 button{
-    width:100px;
-    height:90px;
+    width:125px;
+    height:115px;
     color: black;
     background-color:hotpink;
+    border:0px;
     border-radius: 50%;
     padding:0;
     display: blocks;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    font-size: 16px;
-    margin: 10px;
+    font-size: 19px;
+    margin: 17px;
 
 }
 
 button:hover{
     background-color: gainsboro;
     color: black;
+    border:0px;
 }
 
 .headerlogo{
@@ -69,19 +71,19 @@ footer {
     margin-top: 7%;
 }
 
-kuva-container {
+kuva-container{
     position: absolute;
     width: 300px;
   }
 
-.kuva {
+.kuva{
     width: 300px;
     height: auto;
-    margin:0;
+    margin:0px;
     margin-bottom: 0%;
 }
 
-.hr-kuvan-paalla {
+.hr-kuvan-paalla{
     height: 3px;
     width: 65%;
     color:black;
@@ -101,7 +103,7 @@ kuva-container {
     text-align:center;
 }
 
-.teksti-kuvan-paalla {
+.teksti-kuvan-paalla{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -125,7 +127,7 @@ kuva-container {
      
 }
 
-.flex-item p {
+.flex-item p{
    text-align:left;
 }
 
@@ -175,6 +177,52 @@ button{
 
 }
 
+.body-content{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.body-kuvat{
+
+    width:290px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    font-size: 7px;
+    margin-bottom: 0%;
+    margin-top: 7%;
+}
+
+.kuva {
+    width: 180px;
+    height: auto;
+    margin:0px;
+    margin-bottom: 0%;
+}
+
+.hr-kuvan-paalla{
+    height: 3px;
+    width: 65%;
+    color:black;
+    background-color:black;
+    margin-top: 5px; 
+    margin-bottom: 6%;  
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 65%;
+}
+
+}
+
 /*keskikokoinen näyttö*/
 
 @media only screen and (min-width:421px)
@@ -190,8 +238,8 @@ header{
     
 
 button {
-    width: 75px;
-    height: 65px;
+    width: 95px;
+    height: 85px;
     border: none;
     color: black;
     background-color:hotpink;
@@ -207,9 +255,15 @@ button {
     margin-bottom: 2px;
     cursor: pointer;
 }  
+
+.body-kuvat{
+
+    width:280px;
+    margin-left:10px;
+    margin-right:10px;
+}
     
 }
-
 
 /*iso näyttö*/
 
@@ -242,5 +296,12 @@ button {
     margin-bottom: 2px;
     cursor: pointer;
   }  
+
+  .body-kuvat{
+
+    width:400px;
+    margin-left:20px;
+    margin-right:20px;
+}
 
 }
