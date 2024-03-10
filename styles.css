@@ -91,7 +91,7 @@ kuva-container{
     margin-top: 5px; 
     margin-bottom: 6%;  
     position: absolute;
-    bottom: 12%;
+    
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -236,7 +236,7 @@ header{
     width: 270px;
 }
 
-button {
+button{
     width: 95px;
     height: 85px;
     border: none;
@@ -252,7 +252,7 @@ button {
     margin: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
-    cursor: pointer;
+    cursor: pointer;    
 }  
 
 .header-hr {
@@ -262,15 +262,16 @@ button {
     background-color:black;
     margin-top: 5px; 
     margin-bottom: 7%; 
+}
 
 .body-kuvat{
 
-    width:220px;
+    width:290px;
     margin-left:4px;
     margin-right:4px;
 }
 
-footer {
+footer{
     align-items: center;
     text-align: center;
     padding: 0px;
@@ -279,7 +280,7 @@ footer {
     margin-top: 7%;
 }
 
-.kuva {
+.kuva{
     width: 210px;
     height: auto;
     margin:0px;
@@ -294,15 +295,15 @@ footer {
     margin-top: 5px; 
     margin-bottom: 0%;  
     position: absolute;
-    bottom: 28%;
+    bottom: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 1; 
 }
 
+}
 
     
-}
 
 /*iso näyttö*/
 
@@ -311,11 +312,11 @@ footer {
 
 header{
     width: 100%;
-    }
+}
    
 .headerlogo{
     width: 350px;
-   }
+}
 
 button {
     width: 125px;
@@ -334,9 +335,9 @@ button {
     margin-top: 2px;
     margin-bottom: 2px;
     cursor: pointer;
-  }  
+}  
 
-  .body-kuvat{
+.body-kuvat{
 
     width:400px;
     margin-left:20px;
